@@ -1,6 +1,8 @@
 # storage
 H5本地存储api
 
+----
+
 ### 同步存储api
 + setStorageSync(key:string, object:any, [isSession:boolearn])
 + getStorageSync(key:string, [isSession:boolearn])
@@ -10,29 +12,29 @@ H5本地存储api
 ### 异步存储api
 
 + setStorage(object), object配置项：
-    * key:string, 
+    * key:  string, 
     * data: any, 
-    * isSession:boolean, 
-    * success:function, 
-    * fail:function, 
-    * complete:function
+    * isSession:  boolean, 
+    * success: function, 
+    * fail: function, 
+    * complete:   function
     
 + getStorage(object), object配置项：
-    key:string, 
-    isSession:boolean, 
-    success:function, 
-    fail:function, 
-    complete:function
+    * key: string, 
+    * isSession: boolean, 
+    * success:   function, 
+    * fail:   function, 
+    * complete:  function
     
 + removeStorage(object), object配置项：
-    key:string, 
-    isSession:boolean, 
-    success:function, 
-    fail:function, 
-    complete:function
+    * key: string, 
+    * isSession: boolean, 
+    * success:   function, 
+    * fail:   function, 
+    * complete:  function
 
 + clearStorage(object), object配置项：
-    isSession:boolean, 
-    success:function, 
-    fail:function, 
-    complete:function
+    * isSession: boolean, 
+    * success:   function, 
+    * fail:   function, 
+    * complete:  function
