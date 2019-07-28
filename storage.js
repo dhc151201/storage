@@ -1,3 +1,9 @@
+/**
+*  Aouth: huaicheng151201@163.com
+*  Time: 2019/07/01 : 13:30:23
+*  Summary: H5本地存储api（模仿微信存储api风格）
+*/
+
 function Storage(){
 
     //同步版本
