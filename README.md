@@ -4,10 +4,10 @@ H5本地存储api
 ----
 
 ### 同步存储api
-+ setStorageSync(key:string, object:any, [isSession:boolearn])
-+ getStorageSync(key:string, [isSession:boolearn])
-+ removeStorageSync(key:string, [isSession:boolearn])
-+ clearStorageSync([isSession:boolearn])
++ setStorageSync(key: string, object: any, [isSession: boolearn])
++ getStorageSync(key: string, [isSession: boolearn])
++ removeStorageSync(key: string, [isSession: boolearn])
++ clearStorageSync([isSession: boolearn])
 
 ### 异步存储api
 
